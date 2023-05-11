@@ -55,7 +55,61 @@ print("유저 이름: \(user.name), 나이: \(user.age)")
 ```
 
 ### Default Property Values
-- 
+- 기본값을 프로퍼티의 선언시에 줄 수도 있음
+```swift
+struct User {
+    let userNumber: Int = 101
+}
+```
+
+</br>
+
+## NotificationCenter
+- 등록된 관찰자에게 정보를 방송할 수 있음
+- NotificationCenter.default는 기본알림센터
+
+### addObserver
+- NotificationCenter에 관찰자를 추가하여 selector에 있는 함수를 알림과 함께 호출
+
+### post
+- 주어진 name과 sender로 알림을 만들고 NotificationCenter에 게시함
+
+### 예제
+- YouTuber의 addVideo()를 실행할 때 "newVideo"라는 이름의 알람을 게시하면, Subscriber 클래스 생성자에서 추가된 관찰자가 printMessage를 실행하는 간단한 예제
+
+```swift
+class YouTuber {
+    
+    func addVideo() {
+        NotificationCenter.default.post(name: Notification.Name("newVideo"), object: nil)
+    }
+}
+
+class Subscriber {
+    
+    init() {
+        NotificationCenter.default.addObserver(self, selector: #selector(printMessage), name: Notification.Name("newVideo"), object: nil)
+    }
+    
+    @objc func printMessage() {
+        print("새로운 영상이 올라왔습니다.")
+    }
+}
+
+let sub = Subscriber()
+let you = YouTuber()
+
+you.addVideo()
+
+// "새로운 영상이 올라왔습니다."
+```
+
+</br>
+
+## KVO
+- 객체의 프로퍼티가 변경되면 다른 객체에서 알 수 있게 하는 것
+
+</br>
 
 ---
 ## 느낀점
