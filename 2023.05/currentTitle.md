@@ -6,7 +6,7 @@
 
 ```swift
 @IBAction func orderJuiceTapped(_ sender: UIButton) {
-        guard let title = sender.currentTitle else { fatalError("버튼 타이틀 설정 안돼있음") }
+        guard let title = sender.currentTitle else { fatalError("버튼 제목이 없음") }
         
         switch title {
         case "딸기쥬스 주문":
