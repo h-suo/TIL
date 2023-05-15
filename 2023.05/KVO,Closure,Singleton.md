@@ -1,0 +1,118 @@
+5월 15일 월요일
+
+## KVO
+- 객체의 프로퍼티가 변경되면 다른 객체가 알 수 있도록 하는 패턴
+- Model과 View 처럼 분리되어 있는 객체에서 사용할 수 있음
+
+### 예시
+- 내가 관찰할 대상에 NSObject를 상속
+- 관찬할 프로퍼티에 `@objc`와 `dynamic` 키워드를 사용해야함
+
+```swift
+class Youtuber: NSObject {
+    @objc dynamic var lastVideo: String = ""
+    
+    func updateVideo(_ video: String) {
+        self.lastVideo = video
+    }
+}
+```
+
+- 관찰자에서는 관찰할 객체를 선언하고 `observe(_:options:changeHandler:)`를 통해 프로퍼티를 관찰할 수 있음
+
+```swift
+class Subcriber: NSObject {
+    @objc var youtuber: Youtuber
+    var newVideoAlarm: NSKeyValueObservation?
+    
+    init(youtuber: Youtuber) {
+        self.youtuber = youtuber
+        super.init()
+        
+        newVideoAlarm = observe(\.youtuber.lastVideo, options: [.old, .new]) { video, change in
+            print("새로운 영상이 올라왔습니다. 영상 제목: \(change.newValue!)")
+        }
+    }
+}
+```
+
+</br>
+
+## Closure를 이용한 데이터 전달
+- 클로저가 객체 간의 데이터 전달을 하는 통로 역할을 함
+
+### 예시
+- 데이터를 보낼 SecondVC에 `completionHandler`라는 클로져를 만들어 사용자 입력을 받아 입력함
+```swift
+//SecondViewController.swift
+class SecondVC: UIViewController {
+
+  @IBOutlet weak var dataTextField: UITextField!
+  
+  var completionHandler: ((String) -> ())?
+  
+  override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+  @IBAction func sendButtonTapped(_ sender: Any) {
+    completionHandler?(self.dataTextField.text ?? "")
+    
+    self.navigationController?.popViewController(animated: true)
+  }
+}
+```
+
+- 데이터를 받는 객체에서 데이터를 보내는 객체를 인스턴스로 선언한 후 미리 선언해둔 `completionHandler`를 통해 데이터를 받음
+
+```swift
+//FirstViewController.swift
+class FirstVC: UIViewController {
+  
+  @IBOutlet weak var dataLabel: UILabel!
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
+
+  func dataSend(data: String) {
+    dataLabel.text = data
+  }
+  
+  @IBAction func nextButtonTapped(_ sender: Any) {
+    guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "SecondVC") as? SecondVC else { return }
+    
+    nextVC.completionHandler = { data in
+      self.dataLabel.text = data
+    }
+    
+    self.navigationController?.pushViewController(nextVC, animated: true)
+  }
+}
+```
+
+</br>
+
+## Singleton
+- 하나의 클래스 인스턴스를 선언하여 공유 자원에 대한 접근을 제공
+- 즉 클래스 내부에 자신의 인스턴스를 선언, 할당하여 외부에서 그것에 접근하여 하나의 데이터에 접근할 수 있도록 하는 것 (class가 참조 타입이라 가능)
+
+### 예제
+- `Singleton`이라는 클래스에서 `shared`라는 `Singleton()` 인스턴스를 생성하여 주소를 저장
+- `first`와 `second`는 `shared`의 주소만을 복사하여 결국 같은 데이터를 가르킴
+```swift
+class Singleton {
+    static var shared = Singleton()
+    
+    private init() { }
+}
+
+let first = Singleton.shared
+let second = Singleton.shared
+```
+
+---
+## 느낀점
+- KVO의 사용에 대해 생각하고 적용해보자, 아직은 어색한 방법임
+- Delegate 패턴을 사용한 데이터 전달과 closure를 이용한 방법은 유사함(개인적으로는 클로저가 더 쉬워보임)
+- Delegate 패턴과 closure를 이용한 방법의 차이를 찾아보자
