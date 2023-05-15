@@ -9,11 +9,11 @@
 - 관찬할 프로퍼티에 `@objc`와 `dynamic` 키워드를 사용해야함
 
 ```swift
-class MyObjectToObserve: NSObject {
-    @objc dynamic var myDate = NSDate(timeIntervalSince1970: 0)
+class Youtuber: NSObject {
+    @objc dynamic var lastVideo: String = ""
     
-    func updateDate() {
-        myDate = myDate.addingTimeInterval(Double(2 << 30))
+    func updateVideo(_ video: String) {
+        self.lastVideo = video
     }
 }
 ```
@@ -21,19 +21,16 @@ class MyObjectToObserve: NSObject {
 - 관찰자에서는 관찰할 객체를 선언하고 `observe(_:options:changeHandler:)`를 통해 프로퍼티를 관찰할 수 있음
 
 ```swift
-class MyObserver: NSObject {
-    @objc var objectToObserve: MyObjectToObserve
-    var observation: NSKeyValueObservation?
+class Subcriber: NSObject {
+    @objc var youtuber: Youtuber
+    var newVideoAlarm: NSKeyValueObservation?
     
-    init(object: MyObjectToObserve) {
-        objectToObserve = object
+    init(youtuber: Youtuber) {
+        self.youtuber = youtuber
         super.init()
         
-        observation = observe(
-            \.objectToObserve.myDate,
-            options: [.old, .new]
-        ) { object, change in
-            print("myDate changed from: \(change.oldValue!), updated to: \(change.newValue!)")
+        newVideoAlarm = observe(\.youtuber.lastVideo, options: [.old, .new]) { video, change in
+            print("새로운 영상이 올라왔습니다. 영상 제목: \(change.newValue!)")
         }
     }
 }
