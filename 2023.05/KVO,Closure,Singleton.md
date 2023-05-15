@@ -111,6 +111,24 @@ let first = Singleton.shared
 let second = Singleton.shared
 ```
 
+</br>
+
+## stride(from:to:by:)
+- 지정된 시작부터 최종값으로 반환하지만 최종값은 포함 안 함
+- by에 stride값을 지정하면 그 값을 기준으로 뛰어넘으며 반환
+
+```swift
+for i in stride(from: 0, to: 10, by: 2) {
+    print(i)
+}
+
+// "0"
+// "2"
+// "4"
+// "6"
+// "8"
+```
+
 ---
 ## 느낀점
 - KVO의 사용에 대해 생각하고 적용해보자, 아직은 어색한 방법임
