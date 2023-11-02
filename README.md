@@ -2,13 +2,13 @@
 > 오늘 배운 것을 정리
 
 ---
-- [2023.04](https://github.com/h-suo/TIL/edit/main/README.md#202304)
-- [2023.05](https://github.com/h-suo/TIL/edit/main/README.md#202305)
-- [2023.06](https://github.com/h-suo/TIL/edit/main/README.md#202306)
-- [2023.07](https://github.com/h-suo/TIL/edit/main/README.md#202307)
-- [2023.08](https://github.com/h-suo/TIL/edit/main/README.md#202308)
-- [2023.09](https://github.com/h-suo/TIL/edit/main/README.md#202309)
-- [2023.10](https://github.com/h-suo/TIL/edit/main/README.md#202310)
+- [2023.04](https://github.com/h-suo/TIL#202304)
+- [2023.05](https://github.com/h-suo/TIL#202305)
+- [2023.06](https://github.com/h-suo/TIL#202306)
+- [2023.07](https://github.com/h-suo/TIL#202307)
+- [2023.08](https://github.com/h-suo/TIL#202308)
+- [2023.09](https://github.com/h-suo/TIL#202309)
+- [2023.10](https://github.com/h-suo/TIL#202310)
 
 ---
 
