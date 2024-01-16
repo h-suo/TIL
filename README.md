@@ -14,7 +14,7 @@
 ---
 
 ## 2024.01
-- [01.15 Identifiable](https://github.com/h-suo/TIL/tree/main/2024.01)
+- [01.15 Identifiable](https://github.com/h-suo/TIL/blob/main/2024.01/01.15%20Identifiable.md)
 
 ## 2023.10
 - [10.02 DI Container](https://github.com/h-suo/TIL/blob/main/2023.10/10.02%20DI%20Container.md)
