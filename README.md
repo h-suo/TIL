@@ -1,7 +1,6 @@
-# Today I Learned
-> 오늘 배운 것을 정리
+# Today I Learned 🤓
 
----
+## Monthly 🌙
 - [2024.01](https://github.com/h-suo/TIL#202401)
 - [2023.10](https://github.com/h-suo/TIL#202310)
 - [2023.09](https://github.com/h-suo/TIL#202309)
@@ -11,19 +10,22 @@
 - [2023.05](https://github.com/h-suo/TIL#202305)
 - [2023.04](https://github.com/h-suo/TIL#202304)
 
----
+<br>
 
-## 2024.01
+## By date 📆
+
+### 2024.01
 - [01.15 Identifiable](https://github.com/h-suo/TIL/blob/main/2024.01/01.15%20Identifiable.md)
+- [01.18 SwiftUI + CoreData(1)](https://github.com/h-suo/TIL/blob/main/2024.01/01.18%20SwiftUI%20%2B%20CoreData(1).md)
 
-## 2023.10
+### 2023.10
 - [10.02 DI Container](https://github.com/h-suo/TIL/blob/main/2023.10/10.02%20DI%20Container.md)
 - [10.03 dateStyle](https://github.com/h-suo/TIL/blob/main/2023.10/10.03%20dateStyle.md)
 - [10.09 UICollectionView List](https://github.com/h-suo/TIL/blob/main/2023.10/10.09%20UICollectionView%20List.md)
 - [10.10 PDFView](https://github.com/h-suo/TIL/blob/main/2023.10/10.10%20PDFView.md)
 - [10.11 CollectionView Cell Register](https://github.com/h-suo/TIL/blob/main/2023.10/10.11%20CollectionView%20Cell%20Register.md)
 
-## 2023.09
+### 2023.09
 - [09.01 SwiftLint](https://github.com/h-suo/TIL/blob/main/2023.09/09.01%20SwiftLint.md)
 - [09.04 SwiftUI](https://github.com/h-suo/TIL/blob/main/2023.09/09.04%20SwiftUI.md)
 - [09.10 UIActivityViewController](https://github.com/h-suo/TIL/blob/main/2023.09/09.10%20UIActivityViewController.md)
@@ -41,7 +43,7 @@
 - [09.28 ActionSheet in iPad](https://github.com/h-suo/TIL/blob/main/2023.09/09.28%20ActionSheet%20in%20iPad.md)
 - [09.29 Coordinator Pattern](https://github.com/h-suo/TIL/blob/main/2023.09/09.29%20Coordinator%20Pattern.md)
 
-## 2023.08
+### 2023.08
 - [08.01 attributedText](https://github.com/h-suo/TIL/blob/main/2023.08/08.01%20attributedText.md)
 - [08.02 UICollectionViewDiffableDataSource](https://github.com/h-suo/TIL/blob/main/2023.08/08.02%20UICollectionViewDiffableDataSource.md)
 - [08.03 UICollectionViewCompositionalLayout](https://github.com/h-suo/TIL/blob/main/2023.08/08.03%20UICollectionViewCompositionalLayout.md)
@@ -61,7 +63,7 @@
 - [08.30 keyboardWillShow](https://github.com/h-suo/TIL/blob/main/2023.08/08.30%20keyboardWillShow.md)
 - [08.31 Localization](https://github.com/h-suo/TIL/blob/main/2023.08/08.31%20Localization.md)
 
-## 2023.07
+### 2023.07
 - [07.03 동시성 프로그래밍, GCD](https://github.com/h-suo/TIL/blob/main/2023.07/07.03%20동시성%20프로그래밍%2C%20GCD.md)
 - [07.04 화면 방향 설정, Dynamic Type](https://github.com/h-suo/TIL/blob/main/2023.07/07.04%20화면%20방향%20설정%2C%20Dynamic%20Type.md)
 - [07.05 화면 방향 설정, AutoShrink](https://github.com/h-suo/TIL/blob/main/2023.07/07.05%20화면%20방향%20설정%2C%20AutoShrink.md)
@@ -80,7 +82,7 @@
 - [07.28 expectation](https://github.com/h-suo/TIL/blob/main/2023.07/07.28%20expectation.md)
 - [07.31 closure capture](https://github.com/h-suo/TIL/blob/main/2023.07/07.31%20closure%20capture.md)
 
-## 2023.06
+### 2023.06
 - [06.01 SOLID, Generic 그리고 Protocol](https://github.com/h-suo/TIL/blob/main/2023.06/06.01%20SOLID%2C%20Generic%20그리고%20Protocol.md)
 - [06.02 고차함수](https://github.com/h-suo/TIL/blob/main/2023.06/06.02%20고차함수.md)
 - [06.05 LLDB](https://github.com/h-suo/TIL/blob/main/2023.06/06.05%20LLDB.md)
@@ -100,7 +102,7 @@
 - [06.29 prepareForReuse, contentMode, LocalizedError](https://github.com/h-suo/TIL/blob/main/2023.06/06.29%20prepareForReuse%2C%20contentMode%2C%20LocalizedError.md)
 - [06.30 UITableViewController, Delegate & DataSource, final](https://github.com/h-suo/TIL/blob/main/2023.06/06.30%20%20UITableViewController%2C%20Delegate%20%26%20DataSource%2C%20final.md)
 
-## 2023.05
+### 2023.05
 - [05.01 일반화, 추상화, 은닉화, 캡슐화, 클로져, 함수, 메서드](https://github.com/h-suo/TIL/blob/main/2023.05/05.01%20일반화%2C%20추상화%2C%20은닉화%2C%20캡슐화%2C%20클로져%2C%20함수%2C%20메서드.md)
 - [05.02 enum의 원시값, switch와 튜플](https://github.com/h-suo/TIL/blob/main/2023.05/05.02%20enum의%20원시값%2C%20switch와%20튜플.md)
 - [05.04 mutating, 짝프로그래밍&README](https://github.com/h-suo/TIL/blob/main/2023.05/05.04%20mutating%2C%20짝프로그래밍%26README.md)
@@ -123,7 +125,7 @@
 - [05.30 스택, 시간 복잡도, 큐](https://github.com/h-suo/TIL/blob/main/2023.05/05.30%20스택%2C%20시간%20복잡도%2C%20큐.md)
 - [05.31 UML 밑줄 및 +, -, Double의 재밌는 프로퍼티](https://github.com/h-suo/TIL/blob/main/2023.05/05.31%20UML%20밑줄%20및%20%2B%2C%20-%2C%20Double의%20재밌는%20프로퍼티.md)
 
-## 2023.04
+### 2023.04
 - [04.24 Flow Chart (순서도), Git 터미널 명령어](https://github.com/h-suo/TIL/blob/main/2023.04/04.24%20Flow%20Chart%20(순서도)%2C%20Git%20터미널%20명령어%20.md)
 - [04.25 Git, enumerated()](https://github.com/h-suo/TIL/blob/main/2023.04/04.25%20Git%2C%20enumerated().md)
 - [04.27 Optional](https://github.com/h-suo/TIL/blob/main/2023.04/04.27%20Optional.md)
