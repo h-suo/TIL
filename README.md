@@ -17,6 +17,7 @@
 ### 2024.01
 - [01.15 Identifiable](https://github.com/h-suo/TIL/blob/main/2024.01/01.15%20Identifiable.md)
 - [01.18 SwiftUI + CoreData(1)](https://github.com/h-suo/TIL/blob/main/2024.01/01.18%20SwiftUI%20%2B%20CoreData(1).md)
+- [01.19 SwiftUI + CoreData(2)](https://github.com/h-suo/TIL/blob/main/2024.01/01.19%20SwiftUI%20%2B%20CoreData(2).md)
 
 ### 2023.10
 - [10.02 DI Container](https://github.com/h-suo/TIL/blob/main/2023.10/10.02%20DI%20Container.md)
