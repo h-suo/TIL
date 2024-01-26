@@ -18,6 +18,9 @@
 - [01.15 Identifiable](https://github.com/h-suo/TIL/blob/main/2024.01/01.15%20Identifiable.md)
 - [01.18 SwiftUI + CoreData(1)](https://github.com/h-suo/TIL/blob/main/2024.01/01.18%20SwiftUI%20%2B%20CoreData(1).md)
 - [01.19 SwiftUI + CoreData(2)](https://github.com/h-suo/TIL/blob/main/2024.01/01.19%20SwiftUI%20%2B%20CoreData(2).md)
+- [01.21 EnvironmentObject, Environment, FetchRequest](https://github.com/h-suo/TIL/blob/main/2024.01/01.21%20EnvironmentObject%2C%20Environment%2C%20FetchRequest.md)
+- [01.23 dataTaskPublisher(for:)](https://github.com/h-suo/TIL/blob/main/2024.01/01.23%20dataTaskPublisher(for%3A).md)
+- [01.26 Create Swift Package](https://github.com/h-suo/TIL/blob/main/2024.01/01.26%20Create%20Swift%20Package.md)
 
 ### 2023.10
 - [10.02 DI Container](https://github.com/h-suo/TIL/blob/main/2023.10/10.02%20DI%20Container.md)
