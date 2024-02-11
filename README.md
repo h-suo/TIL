@@ -18,6 +18,7 @@
 ### 2024.02
 - [02.06 Clean Architecture & MVVM](https://github.com/h-suo/TIL/blob/main/2024.02/02.06%20Clean%20Architecture%20%26%20MVVM.md)
 - [02.07 URLProtocol](https://github.com/h-suo/TIL/blob/main/2024.02/02.07%20URLProtocol.md)
+- [02.11 JSONSerialization, Codable, JSONEncoder](https://github.com/h-suo/TIL/blob/main/2024.02/02.11%20JSONSerialization%2C%20Codable%2C%20JSONEncoder.md)
 
 ### 2024.01
 - [01.15 Identifiable](https://github.com/h-suo/TIL/blob/main/2024.01/01.15%20Identifiable.md)
