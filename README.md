@@ -22,6 +22,7 @@
 - [02.12 Swift 특징](https://github.com/h-suo/TIL/blob/main/2024.02/02.12%20Swift%20특징.md)
 - [02.13 UIKit & SwiftUI](https://github.com/h-suo/TIL/blob/main/2024.02/02.13%20UIKit%20%26%20SwiftUI.md)
 - [02.15 CFGetRetainCount, RetainCount Test](https://github.com/h-suo/TIL/blob/main/2024.02/02.15%20CFGetRetainCount%2C%20RetainCount%20Test.md)
+- [02.16 ViewController LifeCycle Test](https://github.com/h-suo/TIL/blob/main/2024.02/02.16%20ViewController%20LifeCycle%20Test.md)
 
 ### 2024.01
 - [01.15 Identifiable](https://github.com/h-suo/TIL/blob/main/2024.01/01.15%20Identifiable.md)
