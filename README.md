@@ -24,6 +24,7 @@
 - [02.15 CFGetRetainCount, RetainCount Test](https://github.com/h-suo/TIL/blob/main/2024.02/02.15%20CFGetRetainCount%2C%20RetainCount%20Test.md)
 - [02.16 ViewController LifeCycle Test](https://github.com/h-suo/TIL/blob/main/2024.02/02.16%20ViewController%20LifeCycle%20Test.md)
 - [02.19 TCA, Getting started](https://github.com/h-suo/TIL/blob/main/2024.02/02.19%20TCA%2C%20Getting%20started.md)
+- [02.20 TCA Testing](https://github.com/h-suo/TIL/blob/main/2024.02/02.20%20TCA%20Testing.md)
 
 ### 2024.01
 - [01.15 Identifiable](https://github.com/h-suo/TIL/blob/main/2024.01/01.15%20Identifiable.md)
