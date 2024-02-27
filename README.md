@@ -28,6 +28,7 @@
 - [02.23 UserNotifications](https://github.com/h-suo/TIL/blob/main/2024.02/02.23%20UserNotifications.md)
 - [02.24 Path, Shape](https://github.com/h-suo/TIL/blob/main/2024.02/02.24%20Path%2C%20Shape.md)
 - [02.26 addCurve, trim, withAnimation](https://github.com/h-suo/TIL/blob/main/2024.02/02.26%20addCurve%2C%20trim%2C%20withAnimation.md)
+- [02.27 List, ForEach](https://github.com/h-suo/TIL/blob/main/2024.02/02.27%20List%2C%20ForEach.md)
 
 ### 2024.01
 - [01.15 Identifiable](https://github.com/h-suo/TIL/blob/main/2024.01/01.15%20Identifiable.md)
