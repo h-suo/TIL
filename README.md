@@ -1,6 +1,7 @@
 # Today I Learned 🤓
 
 ## Monthly 🌙
+- [2024.04](https://github.com/h-suo/TIL#202404)
 - [2024.03](https://github.com/h-suo/TIL#202403)
 - [2024.02](https://github.com/h-suo/TIL#202402)
 - [2024.01](https://github.com/h-suo/TIL#202401)
@@ -15,6 +16,9 @@
 <br>
 
 ## By date 📆
+
+### 2024.04
+- [04.02 combineLatest, merge, zip](https://github.com/h-suo/TIL/blob/main/2024.04/04.02%20combineLatest%2C%20merge%2C%20zip.md)
 
 ### 2024.03
 - [03.02 Cancellable](https://github.com/h-suo/TIL/blob/main/2024.03/03.02%20Cancellable.md)
