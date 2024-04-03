@@ -19,6 +19,7 @@
 
 ### 2024.04
 - [04.02 combineLatest, merge, zip](https://github.com/h-suo/TIL/blob/main/2024.04/04.02%20combineLatest%2C%20merge%2C%20zip.md)
+- [04.03 Exception](https://github.com/h-suo/TIL/blob/main/2024.04/04.03%20Exception.md)
 
 ### 2024.03
 - [03.02 Cancellable](https://github.com/h-suo/TIL/blob/main/2024.03/03.02%20Cancellable.md)
